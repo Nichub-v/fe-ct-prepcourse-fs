@@ -1,0 +1,14 @@
+.activities-ol {
+	width: 450px;
+	text-align: center;
+	list-style-type: none;
+	margin: auto;
+	font-size: 19px;
+	background-color: #a3e19663;
+	backdrop-filter: blur(5px);
+	border-radius: 10px;
+}
+
+.activities-ol li {
+	margin: 20px;
+}

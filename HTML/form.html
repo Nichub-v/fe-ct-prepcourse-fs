@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="index.css">
+	<title>Form</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="accomodation.html">accomodation</a></li>
+            <li><a href="visits_activities.html">visits_activities</a></li>
+            <li><a href="entertainment.html">entertainment</a></li>
+            <li><a href="form.html">contáctanos</a></li>
+        </ul>
+    </nav>
+
+    <div class="nav-margin"></div>
+    
+    <form method="POST" action="mailto:niico.5@live.com.ar">
+        <label for="usuario">Nombre de usuario
+            <input type="text" id="a" name="usuario" required>
+        </label>
+
+        <label for="correo">Email
+            <input type="text" id="b" name="correo" required>
+        </label>
+
+        <label for="mensaje">Mensaje
+            <textarea  id="c" name="mensaje" required></textarea>
+        </label>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
